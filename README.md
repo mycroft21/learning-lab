@@ -7,7 +7,9 @@
 ## 목차
 
 <!-- INDEX:START -->
-_아직 노트가 없습니다._
+### study
+
+- [CQRS 데이터 동기화 지연 해결법](study/architecture/cqrs-sync-delay.md)
 <!-- INDEX:END -->
 
 ## 구조
