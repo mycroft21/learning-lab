@@ -7,9 +7,13 @@
 ## 목차
 
 <!-- INDEX:START -->
-### study
+## 개념 (concept)
 
 - [CQRS 데이터 동기화 지연 해결법](study/architecture/cqrs-sync-delay.md)
+
+## 실무 경험 (insight)
+
+_아직 없음._
 <!-- INDEX:END -->
 
 ## 구조

@@ -1,3 +1,9 @@
+---
+type: concept
+source: study
+tags: [architecture, cqrs, database, eventual-consistency]
+---
+
 # CQRS 데이터 동기화 지연(Eventual Consistency) 해결법
 
 > 한 줄 요약: CQRS에서 쓰기 DB와 읽기 DB의 동기화 지연은 UI 트릭 → 본인 쓰기 보장 → 버전 트래킹 → CDC 인프라 순으로, 정합성 요구 수준에 맞춰 골라 쓴다.
