@@ -16,6 +16,8 @@
 ## 실무 경험 (insight)
 
 - [대규모 아키텍처 설계에서 "성공 경로"보다 "실패 경로"가 본질이다](study/architecture/failure-path-over-success-path.md)
+- [웹 취약점 진단(모의해킹) 조치 실무 — 유형별 원리·대책과 관통 교훈](study/security/web-vuln-remediation.md)
+- [정보보호 인증(ISMS 계열) 대응 실무 — 개인정보·계정이력·웹취약점](study/security/isms-compliance-experience.md)
 <!-- INDEX:END -->
 
 ## 구조
