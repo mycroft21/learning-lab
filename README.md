@@ -10,10 +10,12 @@
 ## 개념 (concept)
 
 - [CQRS 데이터 동기화 지연 해결법](study/architecture/cqrs-sync-delay.md)
+- [서버 스케일링 기초 — 왜 수평 확장인가부터 DB 병목까지](study/architecture/server-scaling-fundamentals.md)
+- [NAT와 방화벽 기초 — 방화벽 룰 문서를 읽는 관점](study/network/nat-firewall-basics.md)
 
 ## 실무 경험 (insight)
 
-_아직 없음._
+- [대규모 아키텍처 설계에서 "성공 경로"보다 "실패 경로"가 본질이다](study/architecture/failure-path-over-success-path.md)
 <!-- INDEX:END -->
 
 ## 구조
