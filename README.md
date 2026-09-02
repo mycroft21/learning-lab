@@ -12,12 +12,14 @@
 - [CQRS 데이터 동기화 지연 해결법](study/architecture/cqrs-sync-delay.md)
 - [서버 스케일링 기초 — 왜 수평 확장인가부터 DB 병목까지](study/architecture/server-scaling-fundamentals.md)
 - [NAT와 방화벽 기초 — 방화벽 룰 문서를 읽는 관점](study/network/nat-firewall-basics.md)
+- [AI 에이전트를 만들 때 절차는 코드가, 표현은 LLM이 — 하니스·스펙·그럄때슱](study/ai-agent/llm-orchestration-grounding-concepts.md)
 
 ## 실무 경험 (insight)
 
 - [대규모 아키텍처 설계에서 "성공 경로"보다 "실패 경로"가 본질이다](study/architecture/failure-path-over-success-path.md)
 - [웹 취약점 진단(모의해킹) 조치 실무 — 유형별 원리·대책과 관통 교훈](study/security/web-vuln-remediation.md)
 - [정보보호 인증(ISMS 계열) 대응 실무 — 개인정보·계정이력·웹취약점](study/security/isms-compliance-experience.md)
+- [AI CLI 기반 이력서 에이전트를 만들어 보며 배운 것 — 왜 반쿄 실패했는가](study/ai-agent/ai-cli-resume-agent-retro.md)
 <!-- INDEX:END -->
 
 ## 구조
