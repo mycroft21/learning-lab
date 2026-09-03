@@ -6,7 +6,7 @@ permalink: /about/
 
 <div class="profile">
   <h1>mycroft</h1>
-  <p class="role">백엔드 개발자 · 8년 8개월차</p>
+  <p class="role">백엔드 개발자 · 8년차쯔음 넘어가는 중</p>
 </div>
 
 <div class="profile-summary">
