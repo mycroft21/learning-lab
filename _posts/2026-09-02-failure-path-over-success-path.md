@@ -1,10 +1,12 @@
 ---
+layout: post
+title: "대규모 아키텍처 설계에서 \"성공 경로\"보다 \"실패 경로\"가 본질이다"
+date: 2026-09-02
+categories: [insight]
+tags: [architecture, scaling, reliability, ai-review]
 type: insight
 source: study
-tags: [architecture, scaling, reliability, ai-review]
 ---
-
-# 대규모 아키텍처 설계에서 "성공 경로"보다 "실패 경로"가 본질이다
 
 > 한 줄 요약: 10만 TPS 아키텍처의 난이도는 잘 돌아갈 때가 아니라 장애·롤백·데이터 유실 시나리오에 있다. AI가 주는 기술 목록은 성공 경로 위주라, 실무에선 실패 경로(장애 내성·정합성·관측성)를 스스로 채워야 한다.
 

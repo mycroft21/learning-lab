@@ -1,10 +1,12 @@
 ---
+layout: post
+title: "정보보호 인증(ISMS 계열) 대응 실무 — 개인정보·계정이력·웹취약점을 처리하며 배운 것"
+date: 2026-09-02
+categories: [insight]
+tags: [security, isms, privacy, authentication, web-vuln, compliance]
 type: insight
 source: work
-tags: [security, isms, privacy, authentication, web-vuln, compliance]
 ---
-
-# 정보보호 인증(ISMS 계열) 대응 실무 — 개인정보·계정이력·웹취약점을 처리하며 배운 것
 
 > 한 줄 요약: 정보보호 인증 대응은 "어려운 기술"이 아니라 "같은 통제항목을
 > 모든 시스템에 빠짐없이·일관되게 반영하는" 반복·누락 관리 싸움이다. 난도보다 커버리지와 문서-구현 정합성이 핵심.

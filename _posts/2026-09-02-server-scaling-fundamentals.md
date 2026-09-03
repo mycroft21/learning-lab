@@ -1,10 +1,12 @@
 ---
+layout: post
+title: "서버 스케일링 기초 — 왜 수평 확장인가부터 DB 병목까지"
+date: 2026-09-02
+categories: [concept]
+tags: [architecture, scaling, database, load-balancing]
 type: concept
 source: study
-tags: [architecture, scaling, database, load-balancing]
 ---
-
-# 서버 스케일링 기초 — 왜 수평 확장인가부터 DB 병목까지
 
 > 한 줄 요약: 대규모 트래픽 대응은 "무슨 기술을 쓰나"가 아니라 "수직→수평 확장을 강제하는 이유(처리량·가용성) → Stateless라는 전제 → 상태를 어디 두나 → DB 병목을 싼 해법부터 푸는 순서"라는 사고 흐름으로 쌓아야 한다.
 

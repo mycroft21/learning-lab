@@ -1,10 +1,12 @@
 ---
+layout: post
+title: "AI CLI 기반 이력서 에이전트를 만들며 배운 것 — 왜 반쯤 실패했나"
+date: 2026-09-02
+categories: [insight]
+tags: [ai-agent, ai-cli, mcp, rag, llm-orchestration, retrospective]
 type: insight
 source: study
-tags: [ai-agent, ai-cli, mcp, rag, llm-orchestration, retrospective]
 ---
-
-# AI CLI 기반 이력서 에이전트를 만들며 배운 것 — 왜 반쯤 실패했나
 
 개인 사이드로 "AI CLI + 스킬/MCP/프롬프트로 내 경력·직무 경험을 정리하고 이력서를 쓰는" 에이전트를
 하루 만에 해커톤처럼 바짝 만들었다. 하루 만에 돌아가는 걸 목표로 속도를 낸 턴이라, 지금 다시 보면

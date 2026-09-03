@@ -1,10 +1,12 @@
 ---
+layout: post
+title: "NAT와 방화벽 기초 — 방화벽 룰 문서를 읽는 관점"
+date: 2026-09-02
+categories: [concept]
+tags: [network, nat, firewall, aws, security-group, nacl]
 type: concept
 source: study
-tags: [network, nat, firewall, aws, security-group, nacl]
 ---
-
-# NAT와 방화벽 기초 — 방화벽 룰 문서를 읽는 관점
 
 > 한 줄 요약: 방화벽 룰(IP/포트 허용)의 배경에는 항상 NAT(주소 변환) + 클라우드 이중화가 있고,
 > "누가 먼저 연결을 여느냐"와 "방화벽이 연결을 기억하느냐(stateful)"가 룰을 읽는 두 축이다.

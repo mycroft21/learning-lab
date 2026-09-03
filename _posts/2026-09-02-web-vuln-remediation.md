@@ -1,10 +1,12 @@
 ---
+layout: post
+title: "웹 취약점 진단(모의해킹) 조치 실무 — 유형별 원리·대책과 관통 교훈"
+date: 2026-09-02
+categories: [insight]
+tags: [security, pentest, web-vuln, owasp, authorization, session, xss, jwt, file-upload]
 type: insight
 source: work
-tags: [security, pentest, web-vuln, owasp, authorization, session, xss, jwt, file-upload]
 ---
-
-# 웹 취약점 진단(모의해킹) 조치 실무 — 유형별 원리·대책과 관통 교훈
 
 > 한 줄 요약: 웹 취약점 진단에서 가장 많이 터지는 건 "인가(authorization)를 클라이언트/화면에 의존한 것"이다.
 > 화면 마스킹·메뉴 숨김·클라이언트 검증은 전부 통제가 아니며, 검증은 반드시 서버가·리소스 소유권 기준으로·

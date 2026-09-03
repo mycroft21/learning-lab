@@ -1,10 +1,12 @@
 ---
+layout: post
+title: "AI 에이전트를 만들 때 절차는 코드가, 표현은 LLM이 — 하네스·스펙·그라운딩"
+date: 2026-09-02
+categories: [concept]
+tags: [ai-agent, llm-orchestration, rag, grounding, hallucination, spec-driven]
 type: concept
 source: study
-tags: [ai-agent, llm-orchestration, rag, grounding, hallucination, spec-driven]
 ---
-
-# AI 에이전트를 만들 때 절차는 코드가, 표현은 LLM이 — 하네스·스펙·그라운딩
 
 이전에 만든 사이드 프로젝트(AI CLI 기반 이력서 에이전트)를 회고하다가, "왜 이게 흔들렸나"를
 제대로 이해하려고 판 개념들이다. 도구 호출 누락, 방향 전환할 때마다 구조를 부순 것, 인터뷰가
