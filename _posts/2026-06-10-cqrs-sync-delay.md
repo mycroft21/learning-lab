@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CQRS 데이터 동기화 지연(Eventual Consistency) 해결법"
-date: 2026-08-31
+date: 2026-06-10
 categories: [concept]
 tags: [architecture, cqrs, database, eventual-consistency]
 type: concept

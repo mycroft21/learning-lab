@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "NAT와 방화벽 기초 — 방화벽 룰 문서를 읽는 관점"
-date: 2026-09-02
+date: 2026-07-22
 categories: [concept]
 tags: [network, nat, firewall, aws, security-group, nacl]
 type: concept

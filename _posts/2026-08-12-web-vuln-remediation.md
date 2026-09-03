@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "웹 취약점 진단(모의해킹) 조치 실무 — 유형별 원리·대책과 관통 교훈"
-date: 2026-09-02
+date: 2026-08-12
 categories: [insight]
 tags: [security, pentest, web-vuln, owasp, authorization, session, xss, jwt, file-upload]
 type: insight

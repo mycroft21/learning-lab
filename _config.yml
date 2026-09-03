@@ -2,6 +2,10 @@ title: learning-lab
 description: 기술 학습 아카이브 — 실무와 스터디에서 익힌 개념·패턴·트러블슈팅 기록
 theme: minima
 
+header_pages:
+  - posts.md
+  - about.md
+
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 
@@ -15,3 +19,8 @@ defaults:
       type: posts
     values:
       layout: post
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

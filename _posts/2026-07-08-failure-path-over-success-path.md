@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "대규모 아키텍처 설계에서 \"성공 경로\"보다 \"실패 경로\"가 본질이다"
-date: 2026-09-02
+date: 2026-07-08
 categories: [insight]
 tags: [architecture, scaling, reliability, ai-review]
 type: insight

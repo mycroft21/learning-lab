@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AI CLI 기반 이력서 에이전트를 만들며 배운 것 — 왜 반쯤 실패했나"
-date: 2026-09-02
+date: 2026-09-01
 categories: [insight]
 tags: [ai-agent, ai-cli, mcp, rag, llm-orchestration, retrospective]
 type: insight

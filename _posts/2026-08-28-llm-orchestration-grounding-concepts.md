@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AI 에이전트를 만들 때 절차는 코드가, 표현은 LLM이 — 하네스·스펙·그라운딩"
-date: 2026-09-02
+date: 2026-08-28
 categories: [concept]
 tags: [ai-agent, llm-orchestration, rag, grounding, hallucination, spec-driven]
 type: concept
