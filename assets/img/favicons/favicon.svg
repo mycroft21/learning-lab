@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
   <style>
-    .bg { fill: #f2ead9; }   /* light: 크림 배경 */
-    .fg { fill: #2b2622; }   /* light: 잉크 글자 */
+    .bg { fill: #6b8f71; }   /* light: 세이지 그린 배경 (사이트 액센트) */
+    .fg { fill: #f2f8f4; }   /* light: 밝은 크림그린 글자 */
     @media (prefers-color-scheme: dark) {
-      .bg { fill: #2b2622; } /* dark: 잉크 배경 */
-      .fg { fill: #f2ead9; } /* dark: 크림 글자 */
+      .bg { fill: #1d1e18; } /* dark: 딥 차콜 배경 */
+      .fg { fill: #aad2ba; } /* dark: 밝은 민트 글자 */
     }
   </style>
   <rect class="bg" width="512" height="512" rx="104"/>
