@@ -1,0 +1,117 @@
+---
+---
+
+@import "minima";
+
+:root {
+  --accent: #2b6cb0;
+  --concept-color: #2b6cb0;
+  --insight-color: #b7791f;
+  --muted: #6b7280;
+}
+
+.hero {
+  padding: 2rem 0 1.5rem;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 1.5rem;
+}
+
+.hero h1 {
+  margin-bottom: 0.4rem;
+  font-size: 1.9rem;
+}
+
+.hero .tagline {
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  max-width: 42rem;
+}
+
+.post-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.post-list > li {
+  margin-bottom: 1.4rem;
+  padding-bottom: 1.1rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.post-list > li h3 {
+  margin: 0.25rem 0 0;
+  font-size: 1.15rem;
+}
+
+.post-meta {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin-right: 0.5rem;
+}
+
+.post-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  vertical-align: middle;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.post-tag-concept {
+  background: rgba(43, 108, 176, 0.12);
+  color: var(--concept-color);
+}
+
+.post-tag-insight {
+  background: rgba(183, 121, 31, 0.14);
+  color: var(--insight-color);
+}
+
+/* About / 자기소개 페이지 */
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.profile .role {
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.profile-summary {
+  font-size: 1.02rem;
+  line-height: 1.75;
+  margin-bottom: 1.6rem;
+}
+
+.profile-section {
+  margin-bottom: 1.6rem;
+}
+
+.profile-section h2 {
+  font-size: 1.15rem;
+  margin-bottom: 0.6rem;
+  border-left: 3px solid var(--accent);
+  padding-left: 0.6rem;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.skill-tag {
+  background: #f3f4f6;
+  color: #374151;
+  font-size: 0.82rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 0.4rem;
+}
