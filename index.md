@@ -1,6 +1,6 @@
 ---
-layout: home
-title: false
+layout: default
+title: 홈
 ---
 
 <div class="hero">
