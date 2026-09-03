@@ -1,7 +1,8 @@
 ---
-layout: page
+# the default layout is 'page'
+icon: fas fa-info-circle
+order: 4
 title: About
-permalink: /about/
 ---
 
 <div class="profile">
@@ -55,8 +56,8 @@ permalink: /about/
     이 사이트는 실무와 스터디에서 익힌 개념·패턴·트러블슈팅을 기록하는 개인 학습 아카이브입니다.
   </p>
   <ul>
-    <li><strong>concept</strong> 태그 글: 공부해서 알게 된 개념·지식·비교</li>
-    <li><strong>insight</strong> 태그 글: 직접 겪으며 판단하고 얻은 실무 경험</li>
+    <li><strong>concept</strong> — 공부해서 알게 된 개념·지식·비교</li>
+    <li><strong>insight</strong> — 직접 겪으며 판단하고 얻은 실무 경험</li>
   </ul>
   <p>모든 글은 회사·프로젝트 식별 정보를 제거하고 일반화한 형태로 작성합니다.</p>
   <p><a href="{{ '/resume/' | relative_url }}">자세한 이력 보기 →</a></p>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <style>
+    .bg { fill: #f2ead9; }   /* light: 크림 배경 */
+    .fg { fill: #2b2622; }   /* light: 잉크 글자 */
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #2b2622; } /* dark: 잉크 배경 */
+      .fg { fill: #f2ead9; } /* dark: 크림 글자 */
+    }
+  </style>
+  <rect class="bg" width="512" height="512" rx="104"/>
+  <text class="fg" x="50%" y="52%" dominant-baseline="central" text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif" font-weight="600"
+        font-size="300">m</text>
+</svg>
