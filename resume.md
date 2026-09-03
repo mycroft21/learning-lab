@@ -80,5 +80,5 @@ permalink: /resume/
 </div>
 
 <div class="profile-section">
-  <p><a href="{{ '/' | relative_url }}">← learning-lab 홈으로</a></p>
+  <p><a href="{{ '/about/' | relative_url }}">← About으로</a> &middot; <a href="{{ '/' | relative_url }}">learning-lab 홈으로</a></p>
 </div>
