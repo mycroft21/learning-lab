@@ -2,6 +2,8 @@
 layout: page
 title: Resume
 permalink: /resume/
+icon: fas fa-id-card
+# _tabs/ 밖에 있으므로 네비게이션에는 노출되지 않음 (about/홈에서 링크로 접근)
 ---
 
 <div class="profile">
