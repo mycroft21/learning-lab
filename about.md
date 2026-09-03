@@ -29,6 +29,17 @@ SI, 온라인 광고, HR SaaS, PG(결제) 등 서로 다른 도메인에서 서�
 </div>
 
 <div class="profile-section">
+  <h2>연혁</h2>
+  <ul class="timeline">
+    <li><strong>엑심베이</strong> <span class="period">2024.12 – 재직중</span> — 가맹점 백오피스 백엔드 개발, 시스템 아키텍처·보안 개선</li>
+    <li><strong>에프앤유신용정보</strong> <span class="period">2024.08 – 2024.11</span> — AI 기반 상담 품질 관리 시스템 개발팀 리드</li>
+    <li><strong>뉴플로이</strong> <span class="period">2021.04 – 2024.07</span> — 급여·인사 SaaS 플랫폼 신규 개발 및 유지보수</li>
+    <li><strong>플레이디</strong> <span class="period">2018.06 – 2021.04</span> — 온라인 광고 및 그로스·사내 도구 서비스 개발</li>
+    <li><strong>다오시스</strong> <span class="period">2018.01 – 2018.06</span> — AS/해피콜 관리 솔루션, 생산자동화 시스템 구축</li>
+  </ul>
+</div>
+
+<div class="profile-section">
   <h2>주요 관심 영역</h2>
   <ul>
     <li>시스템 아키텍처 설계 및 레거시 개선 (헥사고날 아키텍처, 아키텍처 테스트 도입)</li>

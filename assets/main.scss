@@ -115,3 +115,19 @@
   padding: 0.25rem 0.6rem;
   border-radius: 0.4rem;
 }
+
+.timeline {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.timeline > li {
+  margin-bottom: 0.7rem;
+  line-height: 1.6;
+}
+
+.timeline .period {
+  color: var(--muted);
+  font-size: 0.88rem;
+}
