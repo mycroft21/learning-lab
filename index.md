@@ -4,12 +4,26 @@ title: 홈
 ---
 
 <div class="hero">
-  <h1>mycroft의 학습 기록</h1>
+  <h1>안녕하세요, mycroft입니다</h1>
   <p class="tagline">
-    실무와 스터디에서 익힌 개념·패턴·트러블슈팅을 정리합니다.
-    회사 식별 정보는 모두 제거하고 일반화한 형태로 씁니다.
+    백엔드 개발자로 8년 넘게 이것저것 만들고 고치고 있습니다.
+    새 도메인에 던져지면 일단 적응하고, 적응하고 나면 여기저기 흔들어보는 편입니다.
+    여기는 그 과정에서 배운 것과, 배운 척했다가 나중에 아니었던 것들을 정리하는 공간입니다.
   </p>
 </div>
+
+## 하이라이트
+
+<ul class="post-list">
+{% assign featured = site.posts | where: "featured", true %}
+{% for post in featured %}
+  <li>
+    <span class="post-meta">{{ post.date | date: "%Y.%m.%d" }}</span>
+    <span class="post-tag post-tag-{{ post.type }}">{{ post.type }}</span>
+    <h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+  </li>
+{% endfor %}
+</ul>
 
 ## 최근 글
 

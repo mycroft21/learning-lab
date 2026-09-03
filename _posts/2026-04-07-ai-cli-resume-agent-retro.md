@@ -6,6 +6,7 @@ categories: [insight]
 tags: [ai-agent, ai-cli, mcp, rag, llm-orchestration, retrospective]
 type: insight
 source: study
+featured: true
 ---
 
 개인 사이드로 "AI CLI + 스킬/MCP/프롬프트로 내 경력·직무 경험을 정리하고 이력서를 쓰는" 에이전트를
