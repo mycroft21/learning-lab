@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "정보보호 인증(ISMS 계열) 대응 실무 — 개인정보·계정이력·웹취약점을 처리하며 배운 것"
-date: 2026-08-05
+date: 2026-06-28
 categories: [insight]
 tags: [security, isms, privacy, authentication, web-vuln, compliance]
 type: insight

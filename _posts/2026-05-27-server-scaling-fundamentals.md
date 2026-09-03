@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "서버 스케일링 기초 — 왜 수평 확장인가부터 DB 병목까지"
-date: 2026-06-25
+date: 2026-05-27
 categories: [concept]
 tags: [architecture, scaling, database, load-balancing]
 type: concept
