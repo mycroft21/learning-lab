@@ -1,0 +1,51 @@
+---
+layout: default
+panel_includes:
+  - toc
+---
+
+{% include lang.html %}
+
+{% include toc-status.html %}
+
+<article class="px-1" data-toc="{{ enable_toc }}">
+  <header>
+    <h1 data-toc-skip>{{ page.title }}</h1>
+
+    <div class="post-meta text-muted">
+      <span>
+        {% include datetime.html date=page.date tooltip=true lang=lang %}
+      </span>
+
+      {% if page.domain %}
+        <span class="ms-2">· {{ page.domain }}</span>
+      {% endif %}
+
+      {% if page.slots and page.slots > 1 %}
+        <span class="ms-2">· {{ page.parts_done | default: 0 }}/{{ page.slots }} 파트</span>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="content">
+    {{ content }}
+
+    {% if page.slots and page.parts_done < page.slots %}
+      <p class="text-muted fst-italic">이 주제는 아직 이어집니다 — 다음 파트가 여기에 추가됩니다.</p>
+    {% endif %}
+  </div>
+
+  <div class="post-tail-wrapper text-muted">
+    {% if page.tags.size > 0 %}
+      <div class="post-tags">
+        {% for tag in page.tags %}
+          <span class="post-tag">{{- tag -}}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <div class="mt-4">
+      <a href="{{ '/digest/' | relative_url }}">← 딥다이브 목록</a>
+    </div>
+  </div>
+</article>
