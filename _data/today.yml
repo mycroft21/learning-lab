@@ -1,41 +1,44 @@
 # 그날의 뉴스 브리핑. 매일 아침 루틴이 이 파일을 통째로 덮어쓴다 (누적하지 않는다).
 # 딥다이브는 _digest/ 컬렉션에 주제별로 영구 보관되므로 여기에 적지 않는다.
-date: "2026-09-11"
-note: "원사이트 직접 접속이 egress 프록시에 막혀 웹서치로 교차 확인해 재구성"
+date: "2026-09-13"
+note: "원사이트(뉴닉/어피티/GeekNews/HN) 직접 접속이 egress 프록시에 막혀 전량 웹서치로 교차 확인해 재구성"
 
 news:
   - category: 시사
     items:
-      - source: 한국경제
-        text: "9월 11일부터 개인정보 유출 시 매출액 최대 10%까지 과징금이 부과된다. 반복·중대 유출이나 1000만 명 이상 대규모 피해, 시정명령 미이행 시 적용되며 사전 투자 기업은 최대 40% 감경받을 수 있다."
-        url: "https://www.hankyung.com/article/2026091074261"
-      - source: 파이낸셜뉴스
-        text: "한국소비자원이 무인 인형뽑기점 유통 제품 20종을 조사한 결과 60%인 12종에서 프탈레이트계 가소제·납·카드뮴 등 유해화학물질이 검출됐다. 일부 제품은 가소제가 기준치 대비 최대 347.5배 초과했다."
-        url: "https://www.fnnews.com/news/202609102118333993"
+      - source: 이데일리
+        text: "이번 주말 서울 곳곳에서 마라톤·축제·집회가 겹치며 도심 교통이 통제된다. 13일 오전 6시 30분부터 서울광장에서 '2026 런 서울 런' 마라톤이 열리고, 마포구 문화비축기지 옥토버페스트 행사로 인근 버스 노선이 정차하지 않으며, 광화문·홍대 일대에서도 집회·행진이 예정돼 있다."
+        url: "https://www.edaily.co.kr/News/Read?newsId=01574406645579464"
+      - source: 이데일리
+        text: "이형일 경제부총리 후보자 인사청문회가 예정된 가운데, 기획재정부가 '막힌 투자'를 풀기 위한 2차 대책을 이번 주 내놓는다."
+        url: "https://www.edaily.co.kr/News/Read?newsId=01108646645579792"
       - source: 머니투데이
-        text: "미국-이란 전쟁이 7개월째 이어지며 호르무즈 해협·홍해 원유 수송 차질 우려가 커지고 있다. 미국산 원유가 배럴당 100달러를 돌파했고 미 국채 30년물 금리는 18년 만에 최고치를 기록했다."
-        url: "https://www.mt.co.kr/world/2026/09/11/2026091105325969397"
+        text: "이란혁명수비대(IRGC)가 호르무즈 해협에서 미국 선박 2척과 유조선 8척 등 총 10척을 공격했다고 밝혔다. 미군이 전날 이란 유조선 5척을 공격한 데 대한 보복으로, 요르단 주둔 미군기지에도 탄도미사일 20발이 발사돼 이 중 18발이 요격됐다."
+        url: "https://www.mt.co.kr/world/2026/09/10/2026091006432055997"
 
   - category: 금융
     items:
-      - source: TokenPost
-        text: "미 8월 CPI가 한국시간 9/11 밤 9시반 발표된다. 다우존스 컨센서스는 전년比 3.4%, 근원 2.4%로, 9월 FOMC의 금리 결정을 가를 사실상 마지막 핵심 지표로 꼽힌다."
-        url: "https://www.tokenpost.kr/news/economy/403025"
       - source: 파이낸셜뉴스
-        text: "중동발 공급 우려로 브렌트유가 배럴당 107.63달러(+5.94%), WTI는 102.48달러(+6.7%)까지 급등했다. 미 국채 10년물은 장중 4.95%, 30년물은 5.35%를 넘어섰다."
-        url: "https://www.fnnews.com/news/202609102156187596"
-      - source: 머니투데이
-        text: "한국은행이 통화신용정책보고서에서 물가·경기·금융안정 상황을 면밀히 점검하며 추가 기준금리 인상의 시기와 속도를 결정하겠다고 밝혔다. 7월 2.50%→2.75%, 8월 2.75%→3.00%로 두 달 연속 인상한 뒤 나온 발언이다."
-        url: "https://www.mt.co.kr/economy/2026/09/10/2026091015041871310"
+        text: "미국 8월 근원 CPI가 전월 대비 0.3% 올라 시장 예상치(0.2%)를 웃돌았다(전년 대비 2.4%). CME 페드워치 기준 9월 FOMC 금리 인상 확률이 전날 72.4%에서 86.3%로 급등했고, 블룸버그는 금리 선물에 최대 90%까지 반영됐다고 보도했다."
+        url: "https://www.fnnews.com/news/202609120945509417"
+      - source: 파이낸셜뉴스
+        text: "미국-이란 전쟁이 홍해까지 번지며 국제유가가 배럴당 100달러를 돌파했다. 브렌트유는 3.93% 오른 101.8달러, WTI는 3.25% 오른 96.05달러에 거래됐다."
+        url: "https://www.fnnews.com/news/202609091828556453"
+      - source: 아시아경제
+        text: "코스피가 전 거래일보다 124.01포인트(1.76%) 내린 6909.91에 마감하며 7000선이 무너졌다. 원/달러 환율은 1345.9원으로 상승 마감했다."
+        url: "https://view.asiae.co.kr/article/2026091115361397997"
 
   - category: AI·IT
     items:
       - source: The Hacker News
-        text: "미 CISA·NSA·FBI가 딥시크·문샷AI·알리바바 등 중국 AI 6개사가 2024년 말부터 산업적 규모로 프론티어 모델에서 사고사슬(CoT) 추론 등 수십억 토큰을 증류(distillation)로 추출해왔다고 공동 경보를 발표했다."
-        url: "https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html"
+        text: "마이크로소프트가 9월 정기 패치에서 역대 최다인 974개 취약점을 수정했다. 이 중 실제 공격에 악용된 윈도우 제로데이 2건이 포함됐다."
+        url: "https://thehackernews.com/2026/09/microsoft-patches-record-974-flaws.html"
       - source: The Hacker News
-        text: "인포스틸러 로그에서 재사용 가능한 AI 세션 토큰·API 키가 대량 유출돼 MFA를 우회한 계정 탈취에 쓰이고 있다. 8월 2일 유출된 덤프 하나에만 162개국 5,871대 감염 PC 데이터가 담겼다."
-        url: "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html"
-      - source: Yahoo Tech
-        text: "DeepSeek이 V4-Pro와 V4.1-Flash를 정식 출시하며 가격을 인상했다. V4-Pro는 최대 100만 토큰 컨텍스트·38.4만 토큰 출력을 지원한다."
-        url: "https://tech.yahoo.com/ai/articles/deepseek-officially-launches-v4-pro-181255468.html"
+        text: "구글이 크롬 V8 엔진에서 실제 악용 중인 제로데이 취약점을 긴급 패치했다."
+        url: "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html"
+      - source: The Hacker News
+        text: "깃랩이 CVSS 10점 만점의 비인증 임의 파일 읽기 취약점(CVE-2026-85706)을 패치했으나, 공개 직후인 9월 11일 06시(UTC)부터 실제 공격 시도가 관측됐다."
+        url: "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html"
+      - source: CNBC
+        text: "앤스로픽·오픈AI·구글·메타가 같은 주에 나란히 신모델을 출시하며 'AI 모델 피로' 현상이 거론되고 있다. IT 구매 담당자들이 잦은 버전 교체에 방향성을 잃고 있다는 지적이다."
+        url: "https://www.cnbc.com/2026/09/06/meta-google-openai-anthropic-ai-model-fatigue.html"
