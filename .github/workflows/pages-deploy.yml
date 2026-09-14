@@ -9,6 +9,12 @@ on:
       - README.md
       - LICENSE
 
+  # 뉴스 헤드라인은 빌드 시점에 피드에서 받아오므로(_plugins/news-feeds.rb)
+  # 푸시가 없으면 갱신되지 않는다. 평일에는 루틴이 하루 두 번 푸시하지만 주말에는
+  # 이 레포에 푸시가 없어서 금요일 상태로 굳는다. 그래서 6시간마다 다시 빌드한다.
+  schedule:
+    - cron: "0 */6 * * *"
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 

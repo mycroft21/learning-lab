@@ -228,6 +228,7 @@ compress_html:
 
 exclude:
   - "*.gem"
+  - test          # _plugins/news-feeds.rb 검증용 피드 픽스처
   - "*.gemspec"
   - docs
   - tools

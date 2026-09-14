@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Hacker News: Front Page</title>
+    <link>https://news.ycombinator.com/</link>
+    <item>
+      <title>Show HN: I rewrote my build system in 400 lines</title>
+      <link>https://example.com/build-system</link>
+      <comments>https://news.ycombinator.com/item?id=1</comments>
+    </item>
+    <item>
+      <title>The hidden cost of &lt;script defer&gt;</title>
+      <link>https://example.com/script-defer</link>
+    </item>
+    <item>
+      <title>Why your p99 is lying to you</title>
+      <link>https://example.com/p99</link>
+    </item>
+  </channel>
+</rss>
