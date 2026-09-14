@@ -4,27 +4,8 @@ order: 0
 title: Digest
 ---
 
-출퇴근길에 읽는 브리핑. 뉴스는 그날 것만 보이고 쌓이지 않으며, 딥다이브는 주제별로 아래에 남는다.
-
-{% assign today = site.data.today %}
-{% if today and today.news %}
-
-## 오늘의 뉴스
-
-<p class="text-muted">{{ today.date }}{% if today.note %} · {{ today.note }}{% endif %}</p>
-
-{% for group in today.news %}
-<h3>{{ group.category }}</h3>
-<ul>
-{% for item in group.items %}
-  <li>
-    {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.text }}</a>{% else %}{{ item.text }}{% endif %}
-    {% if item.source %}<br><small class="text-muted">{{ item.source }}</small>{% endif %}
-  </li>
-{% endfor %}
-</ul>
-{% endfor %}
-{% endif %}
+출퇴근길에 읽는 딥다이브. 주제 하나를 골라 원리 하나로 정리한 글이 아래에 쌓인다.
+그날의 뉴스는 [홈](/learning-lab/)에 모아둔 소스에서 직접 읽는다.
 
 ## 딥다이브
 
