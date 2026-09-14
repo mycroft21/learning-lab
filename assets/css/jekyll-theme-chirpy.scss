@@ -380,12 +380,17 @@ h1, h2, h3, h4, h5 {
 
 @media all and (max-width: 1199.98px) {
   #news-fab {
-    /* 상단바가 3rem 이라 그 바로 아래. 글 읽는 자리를 가리지 않게 위로 뺐다. */
+    /*
+      위치는 폭에 따라 갈린다. 상단바 오른쪽에 무엇이 있느냐가 다르기 때문이다.
+      - 850px 미만(폰): 검색이 작은 아이콘뿐이라 상단바 줄에 나란히 올린다.
+      - 850~1199px: 검색이 182px 입력창이라 그 줄에 올리면 겹친다. 상단바 바로 아래로.
+      1200px 이상은 우측 패널이 살아나므로 이 버튼 자체가 안 뜬다.
+    */
     display: block;
     position: fixed;
-    top: 3.75rem;
+    top: 3.2rem;
     right: 1rem;
-    z-index: 2;
+    z-index: 3;
   }
 
   /* hidden 을 쓰면 포커스가 안 잡혀 키보드로 못 연다. 시각적으로만 감춘다. */
@@ -420,7 +425,7 @@ h1, h2, h3, h4, h5 {
   .news-fab-panel {
     display: none;
     position: absolute;
-    top: 2.9rem;
+    top: 2.6rem;
     right: 0;
     width: 17rem;
     max-height: 60vh;
@@ -434,5 +439,18 @@ h1, h2, h3, h4, h5 {
 
   #news-fab-toggle:checked ~ .news-fab-panel {
     display: block;
+  }
+}
+
+/* 폰: 상단바 줄에 올린다. 검색 아이콘 왼쪽 자리. */
+@media all and (max-width: 849.98px) {
+  #news-fab {
+    top: 0.3rem;
+    right: 3.3rem;
+  }
+
+  /* 제목이 길면 버튼 밑으로 파고들어 잘린 채 겹친다. 자리를 미리 비워둔다. */
+  #topbar-title {
+    padding-right: 3.6rem;
   }
 }
