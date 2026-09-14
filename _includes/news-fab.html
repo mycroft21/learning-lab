@@ -1,0 +1,38 @@
+<!--
+  좁은 화면 전용 뉴스 바로가기. 우측 패널(#panel-wrapper)이 1200px 미만에서
+  display:none 이라 그 자리를 대신한다. 내용은 패널 위젯과 같다.
+
+  토글은 체크박스+label 로 처리해서 자바스크립트를 전혀 쓰지 않는다 — 테마 번들에
+  손댈 일이 없다. 체크박스는 hidden 대신 시각적으로만 감춰서 키보드 탭·스페이스로도 열린다.
+-->
+
+<div id="news-fab">
+  <input type="checkbox" id="news-fab-toggle" class="news-fab-toggle">
+
+  <label for="news-fab-toggle" class="news-fab-btn" aria-label="뉴스 소스 열기">
+    <i class="fas fa-rss"></i>
+  </label>
+
+  <div class="news-fab-panel">
+    {% for source in site.data.news_feeds %}
+      <div class="news-source">
+        <a class="news-source-name" href="{{ source.site | escape }}" target="_blank" rel="noopener">
+          {{- source.name | escape -}}
+        </a>
+        <a class="news-source-rss" href="{{ source.feed | escape }}" target="_blank" rel="noopener"
+           aria-label="{{ source.name | escape }} RSS 피드"><i class="fas fa-rss"></i></a>
+      </div>
+
+      {% if source.items.size > 0 %}
+        <ul class="list-unstyled ps-0 mb-3">
+          {% for item in source.items %}
+            <li class="news-item">
+              <a href="{{ item.url | escape }}" target="_blank" rel="noopener">{{ item.title | escape }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+<!-- #news-fab -->

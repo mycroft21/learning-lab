@@ -1,0 +1,31 @@
+<!--
+  우측 패널의 뉴스 위젯. 헤드라인은 _plugins/news-feeds.rb 가 빌드 시점에 채운다.
+  피드를 못 가져왔으면 items 가 비고, 소스 링크만 남는다 — 위젯이 통째로 사라지지는 않는다.
+-->
+
+<section id="access-news">
+  <h2 class="panel-heading">뉴스</h2>
+
+  <div class="content news-list ms-1 mt-2 pb-1">
+    {% for source in site.data.news_feeds %}
+      <div class="news-source">
+        <a class="news-source-name" href="{{ source.site | escape }}" target="_blank" rel="noopener">
+          {{- source.name | escape -}}
+        </a>
+        <a class="news-source-rss" href="{{ source.feed | escape }}" target="_blank" rel="noopener"
+           aria-label="{{ source.name | escape }} RSS 피드"><i class="fas fa-rss"></i></a>
+      </div>
+
+      {% if source.items.size > 0 %}
+        <ul class="list-unstyled ps-0 mb-3">
+          {% for item in source.items %}
+            <li class="news-item">
+              <a href="{{ item.url | escape }}" target="_blank" rel="noopener">{{ item.title | escape }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+<!-- #access-news -->

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>GeekNews</title>
+    <link>https://news.hada.io/</link>
+    <item>
+      <title><![CDATA[Postgres 18의 비동기 I/O — 실제로 무엇이 빨라졌나]]></title>
+      <link>https://news.hada.io/topic?id=00001</link>
+    </item>
+    <item>
+      <title>Rust 1.9x에서 달라진 &amp; 트레이트 해석</title>
+      <link>https://news.hada.io/topic?id=00002</link>
+    </item>
+    <item>
+      <title>사내 플랫폼 팀을 없애고 배운 것</title>
+      <link>https://news.hada.io/topic?id=00003</link>
+    </item>
+    <item>
+      <title>네 번째 항목 — PER_SOURCE 로 잘려야 한다</title>
+      <link>https://news.hada.io/topic?id=00004</link>
+    </item>
+    <item>
+      <title>스킴이 이상한 항목은 버려져야 한다</title>
+      <link>javascript:alert(1)</link>
+    </item>
+  </channel>
+</rss>

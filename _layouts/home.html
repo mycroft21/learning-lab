@@ -1,12 +1,13 @@
 ---
 layout: default
+panel_includes:
+  - news-feeds
 ---
 
 <!--
   jekyll-theme-chirpy 7.6.0 의 _layouts/home.html 을 그대로 복사한 뒤
-  포스트 목록 위에 `{{ content }}` 한 블록만 추가한 오버라이드다.
-  테마 기본 home 레이아웃은 페이지 본문을 렌더링하지 않아서, index.html 에
-  적은 내용이 통째로 버려진다. 뉴스 소스 링크를 홈에 두려면 이 구멍이 필요하다.
+  panel_includes 한 줄만 추가한 오버라이드다.
+  우측 패널에 news-feeds 위젯을 띄우기 위한 것이고, 본문은 손대지 않았다.
   테마를 올릴 때는 이 파일이 새 버전을 가린다는 점에 주의 — 젬의 home.html 과
   diff 를 떠서 아래 추가분만 다시 얹으면 된다.
 -->
@@ -53,10 +54,6 @@ layout: default
   {% for i in (normal_start..normal_end) %}
     {% assign posts = posts | push: all_normal[i] %}
   {% endfor %}
-{% endif %}
-
-{% if content != blank %}
-  <div id="home-intro" class="content px-xl-1 mb-4">{{ content }}</div>
 {% endif %}
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
@@ -147,6 +144,8 @@ layout: default
   {% endfor %}
 </div>
 <!-- #post-list -->
+
+{% include news-fab.html %}
 
 {% if paginator.total_pages > 1 %}
   {% include post-paginator.html %}
