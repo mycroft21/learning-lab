@@ -42,7 +42,8 @@ bundle exec jekyll serve
 
 ```text
 learning-lab/
-├── _posts/            # 발행되는 글 (YYYY-MM-DD-kebab-title.md)
+├── _posts/            # 학습 노트 발행본 (YYYY-MM-DD-kebab-title.md) — 월간 승격
+├── _digest/           # 출퇴근길 딥다이브 (routine 자동 발행, frontmatter: title/date/domain/slots/parts_done/tags)
 ├── _tabs/             # 사이드바 네비 페이지 (about / categories / tags / archives)
 ├── _data/
 │   └── profile.yml    # 자기소개/경력/기술스택 등 이력 데이터
@@ -82,6 +83,16 @@ learning-lab/
 - 직접 만든 예제 코드 또는 공개 문서로 설명 가능한 수준만
 - 새 글은 `_posts/YYYY-MM-DD-kebab-title.md` 형식, frontmatter에 `layout: post`, `title`, `date`,
   `categories`, `tags`, `type`, `source` 포함 (필요 시 `pin: true`)
+
+## 두 종류의 글
+
+| 컬렉션 | 무엇 | 누가 | 주기 |
+|--------|------|------|------|
+| `_posts/` | 내가 공부·경험해서 정리한 학습 노트(concept/insight) | private `learning-lab-private`에서 월 1회 정제·승격 | 월간 |
+| `_digest/` | 출퇴근길 딥다이브(주제 하나를 원리 하나로) | 클라우드 routine이 `claude/*` 브랜치 → PR로 발행 | 평일 |
+
+`_digest`는 이미 공개 글이므로 `_posts`로 다시 올리지 않는다. 딥다이브를 공부해 내 이해가 생기면 그건 `_posts` 쪽 노트가 되고 digest 글을 "함께 보기"로 링크한다.
+로컬에서 편집·푸시하기 전 `git pull --rebase` — routine 커밋이 자주 앞선다.
 
 ## 자동 발행
 
