@@ -14,7 +14,6 @@ Jekyll(Chirpy 테마) + GitHub Pages(Actions 빌드)로 발행되며, 자기소�
 - `/tags/` — 태그별 글
 - `/archives/` — 날짜순 전체 글
 - `/about/` — learning-lab 소개 + 프로필 요약
-- `/resume/` — 이력서 상세 (네비게이션에는 안 뜨는 숨김 페이지, `/about/`과 홈에서 링크로 접근)
 
 ## 테마
 
@@ -47,13 +46,12 @@ learning-lab/
 ├── _tabs/             # 사이드바 네비 페이지 (about / categories / tags / archives)
 ├── _data/
 │   └── profile.yml    # 자기소개/경력/기술스택 등 이력 데이터
-│                       # _tabs/about.md 와 resume.md 가 여기서 렌더링 → 항상 동기화됨
+│                       # _tabs/about.md 가 여기서 렌더링
 ├── _plugins/          # Chirpy 보조 플러그인 (posts-lastmod 등)
 ├── assets/
 │   ├── css/jekyll-theme-chirpy.scss  # Chirpy 위 커스텀(폰트·색·프로필 스타일)
 │   └── img/favicons/                 # 파비콘 세트 (테마 대응 SVG + PNG)
 ├── index.html         # 홈 (Chirpy home 레이아웃)
-├── resume.md          # 이력서 상세 (숨김 페이지, permalink /resume/)
 ├── _config.yml        # Jekyll/Chirpy 설정 (baseurl=/learning-lab)
 ├── .github/workflows/pages-deploy.yml  # GitHub Actions 배포
 ├── Gemfile             # 의존성 (jekyll-theme-chirpy)
@@ -74,7 +72,7 @@ learning-lab/
 ## 이력서 데이터
 
 `_data/profile.yml` 하나에 프로필/일하는 방식/경력/학력/자격증/기술스택을 구조화해서 담아둔다.
-이력이 바뀌면 이 파일만 고치면 `/about/`(요약)과 `/resume/`(상세) 둘 다 자동으로 갱신된다.
+이력이 바뀌면 이 파일만 고치면 `/about/`이 자동으로 갱신된다.
 
 ## 작성 원칙
 
